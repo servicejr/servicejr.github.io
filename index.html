@@ -1,7 +1,277 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<style>
+	@import url('https://fonts.googleapis.com/css?family=Poppins:100,300,500,700&subset=latin-ext');
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+	/*.container{
+		
+		//width: 95%;
+		//margin-right: auto;
+		//margin-left: auto;
+	}*/
+.team {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.team h2 {
+  font-size: 42px;
+  line-height: 1.66667;
+  font-weight: 500;
+  color: #151515;
+text-transform: capitalize;
+letter-spacing: .024em;
+word-spacing: .05em;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.team-classic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  margin: 30px 15px 30px 15px;
+}
+
+.team-classic article {
+  width: 25%;
+  max-width: 420px;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.team-classic article img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(100%);
+  transition: all .3s ease;
+}
+
+.team-classic article:hover img {
+  filter: grayscale(0);
+ }
+
+.team-classic article .caption {
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  width: 80%;
+min-width: 300px;
+  transition: all .3s ease;
+z-index: 1;
+  bottom: 5%;
+  padding: 5px 6% 5px 18%;
+  margin-left: -40px;
+}
+
+
+
+.team-classic article .caption::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(17, 17, 17, 0.5);
+    transform: skew(10deg);
+    transform-origin: 50% 100%;
+    z-index: -1;
+}
+
+
+.team-classic article:hover .caption {
+  margin-left: -20px;
+ }
+
+.team-classic .team-classic-name {
+  font-size: 21px;
+  line-height: 1.71429;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  color: #ffffff;
+  text-transform: capitalize;
+  letter-spacing: .024em;
+  word-spacing: .05em;
+}
+
+.team-classic .team-classic-status  {
+  line-height: 1.5;
+  color: #ffffff;
+  letter-spacing: .025em;
+  font-weight: 400;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 100;
+}
+	
+	
+	</style>
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+	
+<div class="team">
+  <h2>Meet The Team</h2>
+ <div class="container">
+	<div class="team-classic">
+    <article>
+      <img src="https://i.ibb.co/sCZSP1J/group-photos-0008-wendy2.png" alt="group-photos-0008-wendy2" border="0">
+      <div class="caption">
+        <h4 class="team-classic-name">Wendy Williams</h4>
+        <p class="team-classic-status">President</p>
+      </div>
+    </article>
+    <article>
+      <img src="https://i.ibb.co/3CKYMx1/group-photos-0012-jerry.png" alt="group-photos-0012-jerry" border="0">
+      <div class="caption">
+        <h4 class="team-classic-name">Jerry Rost</h4>
+        <p class="team-classic-status">CFO</p>
+      </div>
+    </article>
+    <article>
+      <img src="https://i.ibb.co/yNL9Ddw/group-photos-0006-warren.png" alt="group-photos-0006-warren" border="0">
+      <div class="caption">
+        <h4 class="team-classic-name">Warren Katz</h4>
+        <p class="team-classic-status">Sales</p>
+      </div>
+    </article>
+    <article>
+      <img src="https://i.ibb.co/BqZCLqm/group-photos-0013-mary.png" alt="group-photos-0013-mary" border="0">
+      <div class="caption">
+        <h4 class="team-classic-name">Mary Calcagno</h4>
+        <p class="team-classic-status">GoCal</p>
+      </div>
+    </article>
+  </div>
+	
+	<div class="team-classic">
+    <article>
+      <img src="https://i.ibb.co/xhGHkdY/group-photos-0009-geoff.png" alt="group-photos-0009-geoff" border="0">
+      <div class="caption">
+        <h4 class="team-classic-name">Geoff Becker</h4>
+        <p class="team-classic-status">Sales</p>
+      </div>
+    </article>
+    <article>
+      <img src="https://i.ibb.co/ck8c0by/group-photos-0011-elizabeth.png" alt="group-photos-0011-elizabeth" border="0">
+      <div class="caption">
+        <h4 class="team-classic-name">Elizabeth Valdivia</h4>
+        <p class="team-classic-status">Sales</p>
+      </div>
+    </article>
+    <article>
+      <img src="https://i.ibb.co/GkNg7G3/group-photos-0007-donna.png" alt="group-photos-0007-donna" border="0">
+      <div class="caption">
+        <h4 class="team-classic-name">Donna Wilson</h4>
+        <p class="team-classic-status">Sales</p>
+      </div>
+    </article>
+    <article>
+      <img src="https://i.ibb.co/JdT0RHk/debra.png" alt="debra" border="0">
+      <div class="caption">
+        <h4 class="team-classic-name">Debra Diaz</h4>
+        <p class="team-classic-status">Accounting</p>
+      </div>
+    </article>
+  </div>
+	
+	<div class="team-classic">
+    <article>
+      <img src="https://i.ibb.co/N9mX8h8/group-photos-0015-kareen.png" alt="group-photos-0015-kareen" border="0">
+      <div class="caption">
+        <h4 class="team-classic-name">Kareen Espinoza</h4>
+        <p class="team-classic-status">Accounting</p>
+      </div>
+    </article>
+	<article>
+      <img src="https://placehold.jp/420x424.png" alt="">
+      <div class="caption">
+        <h4 class="team-classic-name">Monique Sanders</h4>
+        <p class="team-classic-status">Accounting</p>
+      </div>
+    </article>	
+    <article>
+      <img src="https://i.ibb.co/q76FZgg/group-photos-0010-lauren.png" alt="group-photos-0010-lauren" border="0">
+      <div class="caption">
+        <h4 class="team-classic-name">lauren Wright</h4>
+        <p class="team-classic-status">Senior Project Manager</p>
+      </div>
+    </article>
+    <article>
+      <img src="https://i.ibb.co/Fn4xtNv/sarah1.png" alt="sarah1" border="0">
+      <div class="caption">
+        <h4 class="team-classic-name">Sarah Edwards</h4>
+        <p class="team-classic-status">Project Manager</p>
+      </div>
+    </article>
+  </div>
+	
+			 <div class="team-classic">
+    <article>
+      <img src="https://i.ibb.co/n0qkPf3/group-photos-0005-Layer-5.png" alt="group-photos-0005-Layer-5" border="0">
+      <div class="caption">
+        <h4 class="team-classic-name">Travis Taylor</h4>
+        <p class="team-classic-status">Senior Project Manager</p>
+      </div>
+    </article>
+    <article>
+      <img src="https://i.ibb.co/YN4jgWY/group-photos-0002-Layer-9.png" alt="group-photos-0002-Layer-9" border="0">
+      <div class="caption">
+        <h4 class="team-classic-name">Ray Petersen</h4>
+        <p class="team-classic-status">Project Manager</p>
+      </div>
+    </article>
+    <article>
+      <img src="https://i.ibb.co/x1WGRQK/group-photos-0017-Layer-3.png" alt="group-photos-0017-Layer-3" border="0">
+      <div class="caption">
+        <h4 class="team-classic-name">Edgar Gold</h4>
+        <p class="team-classic-status">Project Manager</p>
+      </div>
+    </article>
+    <article>
+      <img src="https://i.ibb.co/ftFwNx1/group-photos-0016-Layer-11.png" alt="group-photos-0016-Layer-11" border="0">
+      <div class="caption">
+        <h4 class="team-classic-name">Chase Lyle</h4>
+        <p class="team-classic-status">Project Manager</p>
+      </div>
+    </article>
+  </div>
+	
+			 <div class="team-classic">
+    <article>
+      <img src="https://i.ibb.co/vPjFDKL/julia2.jpg" alt="julia2" border="0">
+      <div class="caption">
+        <h4 class="team-classic-name">Julia Page</h4>
+        <p class="team-classic-status">Project Manager GoCal</p>
+      </div>
+    </article>
+    <article>
+     <img src="https://i.ibb.co/C6VkBc9/group-photos-0014-naomi.png" alt="group-photos-0014-naomi" border="0">
+      <div class="caption">
+        <h4 class="team-classic-name">Naomi Olea</h4>
+        <p class="team-classic-status">Account Manager GoCal</p>
+      </div>
+    </article>
+    <article>
+     
+    </article>
+    <article>
+      
+    </article>
+  </div>
+</div>
+		</div>
 </body>
 </html>
