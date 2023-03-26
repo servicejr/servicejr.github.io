@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+}
+
+#pushobj {
+	position: absolute;
+	top: 0px;
+	left: 370px;
+	color: #b7312c;
+	background: #fff;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2em;
+	z-index: 1;
+}
