@@ -10,11 +10,11 @@ body {
 #pushobj {
 	position: absolute;
 	top: 0px;
-	left: 370px;
+	left: 100px;
 	color: #b7312c;
 	background: #fff;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 3em;
+	font-family: 'montserrat', sans-serif;
+	font-size: 4em;
 	z-index: 1;
 }
 /*#pushobj {
