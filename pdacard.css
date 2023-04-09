@@ -155,7 +155,7 @@ img {
 
 
 
-// layout stuff
+/*layout stuff*/
 
 main {
   
@@ -166,7 +166,7 @@ main {
   @media screen and (min-width: 600px) {
     
   grid-template-columns: repeat(4, 1fr);
- //   grid-template-columns: 1fr 1fr 1fr;
+/*   grid-template-columns: 1fr 1fr 1fr;*/
     grid-template-rows: min-content 1fr;
     
   }
